@@ -1,0 +1,11 @@
+VehicleMake,VehicleModel,Year,Color,Engine
+Toyota,Corolla,2018,White,1.8L
+Toyota,Camry,2020,Black,2.5L
+Honda,Civic,2019,Blue,2.0L
+Honda,Accord,2021,Silver,1.5L
+Ford,Focus,2017,Red,2.0L
+Ford,Mustang,2022,Yellow,5.0L
+BMW,320i,2018,White,2.0L
+BMW,X5,2020,Black,3.0L
+Audi,A4,2019,Silver,2.0L
+Audi,Q7,2021,Blue,3.0L

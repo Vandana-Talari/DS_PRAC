@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_675a4c30af7957823d49c81f216e00d5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_675a4c30af7957823d49c81f216e00d5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_675a4c30af7957823d49c81f216e00d5 = L.map(
+                "map_675a4c30af7957823d49c81f216e00d5",
+                {
+                    center: [48.1459806, 11.4985484],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_14e38ad30d721bea2a5cc715fe17f54d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_14e38ad30d721bea2a5cc715fe17f54d.addTo(map_675a4c30af7957823d49c81f216e00d5);
+        
+    
+            var marker_1a9fd75ca7d8cb2be52fe98b058e53fe = L.marker(
+                [48.137154, 11.576124],
+                {
+}
+            ).addTo(map_675a4c30af7957823d49c81f216e00d5);
+        
+    
+        var popup_3e1c32c34329cbd10be829de9092bef5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d04da832f6f93b3aaad3c48cf8677434 = $(`<div id="html_d04da832f6f93b3aaad3c48cf8677434" style="width: 100.0%; height: 100.0%;">Munich Center (Germany)</div>`)[0];
+                popup_3e1c32c34329cbd10be829de9092bef5.setContent(html_d04da832f6f93b3aaad3c48cf8677434);
+            
+        
+
+        marker_1a9fd75ca7d8cb2be52fe98b058e53fe.bindPopup(popup_3e1c32c34329cbd10be829de9092bef5)
+        ;
+
+        
+    
+    
+            var marker_bf2fdb668870529ac775273a97c4b401 = L.marker(
+                [52.520008, 13.404954],
+                {
+}
+            ).addTo(map_675a4c30af7957823d49c81f216e00d5);
+        
+    
+        var popup_e8aab35ee1392a0794ee90ba2dfb47e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4ddbd376ae299bfed3c94b7e09ea22f = $(`<div id="html_d4ddbd376ae299bfed3c94b7e09ea22f" style="width: 100.0%; height: 100.0%;">Berlin Center (Germany)</div>`)[0];
+                popup_e8aab35ee1392a0794ee90ba2dfb47e9.setContent(html_d4ddbd376ae299bfed3c94b7e09ea22f);
+            
+        
+
+        marker_bf2fdb668870529ac775273a97c4b401.bindPopup(popup_e8aab35ee1392a0794ee90ba2dfb47e9)
+        ;
+
+        
+    
+    
+            var marker_aa116a9539079df914dd515673b255c3 = L.marker(
+                [53.551086, 9.993682],
+                {
+}
+            ).addTo(map_675a4c30af7957823d49c81f216e00d5);
+        
+    
+        var popup_e29c7e786a92b89be6deab679ee03fb6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f81c1a57aee058bca898d472d4a64391 = $(`<div id="html_f81c1a57aee058bca898d472d4a64391" style="width: 100.0%; height: 100.0%;">Hamburg Center (Germany)</div>`)[0];
+                popup_e29c7e786a92b89be6deab679ee03fb6.setContent(html_f81c1a57aee058bca898d472d4a64391);
+            
+        
+
+        marker_aa116a9539079df914dd515673b255c3.bindPopup(popup_e29c7e786a92b89be6deab679ee03fb6)
+        ;
+
+        
+    
+    
+            var marker_52ca36bc9b8eda611204756ff82c6343 = L.marker(
+                [50.110924, 8.682127],
+                {
+}
+            ).addTo(map_675a4c30af7957823d49c81f216e00d5);
+        
+    
+        var popup_4dcbe1109773c342504f5dd79c126bd3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ec7b7c354387179899ab4d36d7222fa = $(`<div id="html_6ec7b7c354387179899ab4d36d7222fa" style="width: 100.0%; height: 100.0%;">Frankfurt Center (Germany)</div>`)[0];
+                popup_4dcbe1109773c342504f5dd79c126bd3.setContent(html_6ec7b7c354387179899ab4d36d7222fa);
+            
+        
+
+        marker_52ca36bc9b8eda611204756ff82c6343.bindPopup(popup_4dcbe1109773c342504f5dd79c126bd3)
+        ;
+
+        
+    
+    
+            var marker_b4b69bddefe65c0ceb867ef5699fa9d7 = L.marker(
+                [50.937531, 6.960279],
+                {
+}
+            ).addTo(map_675a4c30af7957823d49c81f216e00d5);
+        
+    
+        var popup_180406b4561c5c02f59d1b1baf0dbf17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6adb7b2a2a29feeba6393cc7814a1d6 = $(`<div id="html_a6adb7b2a2a29feeba6393cc7814a1d6" style="width: 100.0%; height: 100.0%;">Cologne Center (Germany)</div>`)[0];
+                popup_180406b4561c5c02f59d1b1baf0dbf17.setContent(html_a6adb7b2a2a29feeba6393cc7814a1d6);
+            
+        
+
+        marker_b4b69bddefe65c0ceb867ef5699fa9d7.bindPopup(popup_180406b4561c5c02f59d1b1baf0dbf17)
+        ;
+
+        
+    
+</script>
+</html>
